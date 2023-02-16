@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
+import "./App.scss"
+// We use Route in order to define the different routes of our application
+import { Route, Routes } from "react-router-dom";
+ 
+
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { faCat, faDog, faBugs } from '@fortawesome/free-solid-svg-icons'
+
+
+// We import all the components we need in our app
+import MyNavbar from "./components/navbar";
+import Home from "./components/home";
+
+import SampleForm from "./components/sample/form";
+import SampleColors from "./components/sample/colors";
+
+
+const App = () => {
+ return (
+   <div className="container">
+     <MyNavbar />
+     <Routes>
+       <Route exact path="/" element={<Home />} />
+       <Route path="/sample/form" element={<SampleForm />} />
+       <Route path="/sample/colors" element={<SampleColors />} />
+     </Routes>
+   </div>
+ );
+};
+// library.add(faCat, faDog, faBugs)
 export default App;
