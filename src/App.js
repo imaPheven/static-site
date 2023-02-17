@@ -21,7 +21,7 @@ import SampleColors from "./components/sample/colors";
 
 const App = () => {
  return (
-   <div className="container">
+   <div className="px-4 px-xxl-2 container-xxl">
      <MyNavbar />
      <Routes>
        <Route exact path="/" element={<Home />} />
