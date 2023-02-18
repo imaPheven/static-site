@@ -10,17 +10,32 @@ export default function Home() {
               <li class="list-group-item">
                 <a target="_blank" rel="noreferrer" class="text-primary" href="https://project.linuxfoundation.org/hubfs/LF%20Research/Roadmap%20to%20Improve%20Enterprise%20OS%20Dev%20-%20Report.pdf?hsLang=en">
                   Open Source in Enterprises
-                </a> <span class="text-body-secondary"><i class="bi bi-filetype-pdf"></i> <small><i class="bi bi-box-arrow-up-right"></i></small></span>
+                </a> <span class="text-body-tertiary"><i class="bi bi-filetype-pdf"></i> <small><i class="bi bi-box-arrow-up-right"></i></small></span>
               </li>
               <li class="list-group-item">
                 <a target="_blank" rel="noreferrer" class="text-primary" href="https://shuffle.dev/top100-profiles-for-web-devs.pdf">
                  Top devs on Twitter 
-                </a> <span class="text-body-secondary"><i class="bi bi-filetype-pdf"></i> <small><i class="bi bi-box-arrow-up-right"></i></small></span>
+                </a> <span class="text-body-tertiary"><i class="bi bi-filetype-pdf"></i> <small><i class="bi bi-box-arrow-up-right"></i></small></span>
               </li>
               <li class="list-group-item">
                 <a target="_blank" rel="noreferrer" class="text-primary" href="https://nextjs.org/learn/foundations/how-nextjs-works/cdns-and-edge">
                  CDNs and the Edge (Next.js)
-                </a> <span class="text-body-secondary"><small><i class="bi bi-box-arrow-up-right"></i></small></span>
+                </a> <span class="text-body-tertiary"><small><i class="bi bi-box-arrow-up-right"></i></small></span>
+              </li>
+              <li class="list-group-item">
+                <div>Quick docs on almost any language</div>
+                
+                <a target="_blank" rel="noreferrer" class="text-primary" href="https://learnxinyminutes.com/">
+                learnxinyminutes.com
+                </a> <span class="text-body-tertiary">
+                    <small>
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </small>
+                    &nbsp;&nbsp;<a target="_blank" rel="noreferrer" class="text-primary-emphasis" href="https://github.com/adambard/learnxinyminutes-docs">
+                  <small><i class="bi bi-github"></i></small>
+                </a>
+                    </span>
+                    https://jsonresume.org
               </li>
             </ul>
           </div>
