@@ -5,16 +5,33 @@ export default function Home() {
       <div class="d-lg-grid" id="content">
         <div class="sidecar">
           <div class="masthead py-5">
-            <p>This is a basic landing page for Robot Love.</p>
+            <h5>Intersting Links</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a target="_blank" rel="noreferrer" class="text-primary" href="https://project.linuxfoundation.org/hubfs/LF%20Research/Roadmap%20to%20Improve%20Enterprise%20OS%20Dev%20-%20Report.pdf?hsLang=en">
+                  Open Source in Enterprises
+                </a> <span class="text-body-secondary"><i class="bi bi-filetype-pdf"></i> <small><i class="bi bi-box-arrow-up-right"></i></small></span>
+              </li>
+              <li class="list-group-item">
+                <a target="_blank" rel="noreferrer" class="text-primary" href="https://shuffle.dev/top100-profiles-for-web-devs.pdf">
+                 Top devs on Twitter 
+                </a> <span class="text-body-secondary"><i class="bi bi-filetype-pdf"></i> <small><i class="bi bi-box-arrow-up-right"></i></small></span>
+              </li>
+              <li class="list-group-item">
+                <a target="_blank" rel="noreferrer" class="text-primary" href="https://nextjs.org/learn/foundations/how-nextjs-works/cdns-and-edge">
+                 CDNs and the Edge (Next.js)
+                </a> <span class="text-body-secondary"><small><i class="bi bi-box-arrow-up-right"></i></small></span>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="main">
           <div class="posts-container">
             <div class="mb-4 rounded-3">
               <div class="container-fluid">
-                <h1 class="display-5 fw-bold">Welcome</h1>
+                <h1 class="display-5 fw-bold">Under Construction</h1>
                 <p class="col-md-8 fs-4">
-                  <i class="bi bi-cone-striped text-warning"></i> Please stand
+                  <i class="bi bi-cone-striped text-warning fs-1 text"></i> Please stand
                   by as we work on coming up with content.
                 </p>
               </div>

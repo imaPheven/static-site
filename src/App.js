@@ -15,9 +15,6 @@ import { Route, Routes } from "react-router-dom";
 import MyNavbar from "./components/navbar";
 import Home from "./components/home";
 
-import SampleForm from "./components/sample/form";
-import SampleColors from "./components/sample/colors";
-
 
 const App = () => {
  return (
@@ -25,8 +22,6 @@ const App = () => {
      <MyNavbar />
      <Routes>
        <Route exact path="/" element={<Home />} />
-       <Route path="/sample/form" element={<SampleForm />} />
-       <Route path="/sample/colors" element={<SampleColors />} />
      </Routes>
    </div>
  );
