@@ -8,19 +8,24 @@ export default function Home() {
             <h5>Intersting Links</h5>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <a target="_blank" rel="noreferrer" class="text-primary" href="https://project.linuxfoundation.org/hubfs/LF%20Research/Roadmap%20to%20Improve%20Enterprise%20OS%20Dev%20-%20Report.pdf?hsLang=en">
-                  Open Source in Enterprises
-                </a> <span class="text-body-tertiary"><i class="bi bi-filetype-pdf"></i> <small><i class="bi bi-box-arrow-up-right"></i></small></span>
+                <a target="_blank" rel="noreferrer" class="text-primary" href="https://jsonresume.org">
+                JSON Resume
+                </a>&nbsp;
+                <span class="text-body-tertiary">
+                  <small>
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </small>
+                </span>
               </li>
               <li class="list-group-item">
-                <a target="_blank" rel="noreferrer" class="text-primary" href="https://shuffle.dev/top100-profiles-for-web-devs.pdf">
-                 Top devs on Twitter 
-                </a> <span class="text-body-tertiary"><i class="bi bi-filetype-pdf"></i> <small><i class="bi bi-box-arrow-up-right"></i></small></span>
-              </li>
-              <li class="list-group-item">
-                <a target="_blank" rel="noreferrer" class="text-primary" href="https://nextjs.org/learn/foundations/how-nextjs-works/cdns-and-edge">
-                 CDNs and the Edge (Next.js)
-                </a> <span class="text-body-tertiary"><small><i class="bi bi-box-arrow-up-right"></i></small></span>
+                <a target="_blank" rel="noreferrer" class="text-primary" href="http://www.sevangelatos.com/john-carmack-on/">
+                John Carmack on Functional Programming in C++
+                </a>&nbsp;
+                <span class="text-body-tertiary">
+                    <small>
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </small>
+                </span>
               </li>
               <li class="list-group-item">
                 <div>Quick docs on almost any language</div>
@@ -38,24 +43,19 @@ export default function Home() {
                     https://jsonresume.org
               </li>
               <li class="list-group-item">
-                <a target="_blank" rel="noreferrer" class="text-primary" href="http://www.sevangelatos.com/john-carmack-on/">
-                John Carmack on Functional Programming in C++
-                </a>&nbsp;
-                <span class="text-body-tertiary">
-                    <small>
-                      <i class="bi bi-box-arrow-up-right"></i>
-                    </small>
-                </span>
+                <a target="_blank" rel="noreferrer" class="text-primary" href="https://nextjs.org/learn/foundations/how-nextjs-works/cdns-and-edge">
+                 CDNs and the Edge (Next.js)
+                </a> <span class="text-body-tertiary"><small><i class="bi bi-box-arrow-up-right"></i></small></span>
               </li>
               <li class="list-group-item">
-                <a target="_blank" rel="noreferrer" class="text-primary" href="https://jsonresume.org">
-                JSON Resume
-                </a>&nbsp;
-                <span class="text-body-tertiary">
-                  <small>
-                    <i class="bi bi-box-arrow-up-right"></i>
-                  </small>
-                </span>
+                <a target="_blank" rel="noreferrer" class="text-primary" href="https://shuffle.dev/top100-profiles-for-web-devs.pdf">
+                 Top devs on Twitter 
+                </a> <span class="text-body-tertiary"><i class="bi bi-filetype-pdf"></i> <small><i class="bi bi-box-arrow-up-right"></i></small></span>
+              </li>
+              <li class="list-group-item">
+                <a target="_blank" rel="noreferrer" class="text-primary" href="https://project.linuxfoundation.org/hubfs/LF%20Research/Roadmap%20to%20Improve%20Enterprise%20OS%20Dev%20-%20Report.pdf?hsLang=en">
+                  Open Source in Enterprises
+                </a> <span class="text-body-tertiary"><i class="bi bi-filetype-pdf"></i> <small><i class="bi bi-box-arrow-up-right"></i></small></span>
               </li>
             </ul>
           </div>
