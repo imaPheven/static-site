@@ -42,39 +42,60 @@ export default function Home() {
         </div>
         <div class="main">
           <div class="posts-container">
-            <div class="mb-4 rounded-3">
-              <div class="container-fluid">
-                <h1 class="display-5 fw-bold">Under Construction</h1>
-                <p class="col-md-8 fs-4">
-                  <i class="bi bi-cone-striped text-warning fs-1 text"></i> Please stand
-                  by as we work on coming up with content.
-                </p>
-              </div>
-            </div>
+            
             <div class="row align-items-md-stretch">
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="h-100 p-4 text-bg-dark rounded-3">
-                  <h2>Word of the day</h2>
-                  <p>
-                    <div>
-                      sentiēns (<i>genitive</i> sentientis);{" "}
-                      <i>third-declension one-termination participle</i>
+                  <div class="card mb-4">
+                    <h5 class="card-header"><i class="bi bi-book text-primary"></i> Word of the day</h5>
+                    <div class="card-body">
+                      <h5 class="card-title">automaton (<i>au·​tom·​a·​ton</i>)</h5>
+                      <p class="card-text">
+                        <div>
+                          plural: automata (<i>aw·tom·uh·tuh</i>)<br/>
+                          greek αὐτόματος
+                        </div>
+                        <ol>
+                          <li>a mechanism that is relatively self-operating</li>
+                          <li>
+                            a machine or control mechanism designed to follow automatically 
+                            a predetermined sequence of operations or respond to encoded instructions
+                          </li>
+                          <li>an individual who acts in a mechanical fashion</li>
+                        </ol>
+                      </p>
                     </div>
-                    <ol></ol>
-                    <li>feeling, perceiving with the senses.</li>
-                    <li>perceiving: noticing mentally.</li>
-                    <li>having an opinion, feeling emotion.</li>
-                  </p>
+                    <div class="container me-0 pe-0">
+                    <h5 class="card-header border">Past words</h5>
+                      <div class="d-flex mb-2">
+                        <div class="px-3">
+                          <div class="vr text-secondary"></div>
+                        </div>
+                        <div class="flex-fill">
+                          <div class="card rounded-0 border-top-0 ms-1">
+                            <div class="card-body">
+                              <h5 class="card-title">sentiēns (<i>genitive</i> sentientis);</h5>
+                              <p class="card-text">
+                              <div>
+                                plural: automata (<i>aw·tom·uh·tuh</i>)<br/>
+                                greek αὐτόματος
+                              </div>
+                              <ol>
+                            <li>feeling, perceiving with the senses.</li>
+                            <li>perceiving: noticing mentally.</li>
+                            <li>having an opinion, feeling emotion.</li>
+                            </ol>
+                            </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="h-100 p-5 bg-light border rounded-3">
-                  <h2 class="text-dark">Upcoming topics</h2>
-                  <p>
-                    AI and ethics
-                  </p>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
