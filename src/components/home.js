@@ -37,6 +37,26 @@ export default function Home() {
                     </span>
                     https://jsonresume.org
               </li>
+              <li class="list-group-item">
+                <a target="_blank" rel="noreferrer" class="text-primary" href="http://www.sevangelatos.com/john-carmack-on/">
+                John Carmack on Functional Programming in C++
+                </a>&nbsp;
+                <span class="text-body-tertiary">
+                    <small>
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </small>
+                </span>
+              </li>
+              <li class="list-group-item">
+                <a target="_blank" rel="noreferrer" class="text-primary" href="https://jsonresume.org">
+                JSON Resume
+                </a>&nbsp;
+                <span class="text-body-tertiary">
+                  <small>
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </small>
+                </span>
+              </li>
             </ul>
           </div>
         </div>
