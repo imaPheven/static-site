@@ -96,26 +96,20 @@ export default function Home() {
                             <div class="card-body">
                               <h5 class="card-title">sentiēns (<i>genitive</i> sentientis);</h5>
                               <p class="card-text">
-                              <div>
-                                plural: automata (<i>aw·tom·uh·tuh</i>)<br/>
-                                greek αὐτόματος
-                              </div>
-                              <ol>
-                            <li>feeling, perceiving with the senses.</li>
-                            <li>perceiving: noticing mentally.</li>
-                            <li>having an opinion, feeling emotion.</li>
-                            </ol>
-                            </p>
+                                <ol>
+                                  <li>feeling, perceiving with the senses.</li>
+                                  <li>perceiving: noticing mentally.</li>
+                                  <li>having an opinion, feeling emotion.</li>
+                                </ol>
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
