@@ -40,12 +40,11 @@ export default function Home() {
                   <small><i class="bi bi-github"></i></small>
                 </a>
                     </span>
-                    https://jsonresume.org
               </li>
               <li class="list-group-item">
                 <a target="_blank" rel="noreferrer" class="text-primary" href="https://nextjs.org/learn/foundations/how-nextjs-works/cdns-and-edge">
                  CDNs and the Edge (Next.js)
-                </a> <span class="text-body-tertiary"><small><i class="bi bi-box-arrow-up-right"></i></small></span>
+                </a> <span class="text-body-tertiary"><small> <i class="bi bi-box-arrow-up-right"></i></small></span>
               </li>
               <li class="list-group-item">
                 <a target="_blank" rel="noreferrer" class="text-primary" href="https://shuffle.dev/top100-profiles-for-web-devs.pdf">
@@ -57,7 +56,7 @@ export default function Home() {
                   Open Source in Enterprises
                 </a> <span class="text-body-tertiary"><i class="bi bi-filetype-pdf"></i> <small><i class="bi bi-box-arrow-up-right"></i></small></span>
               </li>
-            </ul>
+            </ul>            
           </div>
         </div>
         <div class="main">
@@ -67,31 +66,54 @@ export default function Home() {
               <div class="col-md-12">
                 <div class="h-100 p-4 text-bg-dark rounded-3">
                   <div class="card mb-4">
-                    <h5 class="card-header"><i class="bi bi-book text-primary"></i> Word of the day</h5>
+                    <h5 class="card-header"><i class="bi bi-book text-primary"></i> Term of the day</h5>
                     <div class="card-body">
-                      <h5 class="card-title">automaton (<i>au·​tom·​a·​ton</i>)</h5>
+                      <h5 class="card-title">Design Thinking</h5>
                       <p class="card-text">
-                        <div>
-                          plural: automata (<i>aw·tom·uh·tuh</i>)<br/>
-                          greek αὐτόματος
-                        </div>
+                        <figure>
+                          <blockquote class="blockquote">
+                            <p class="fs-6"><small><i class="bi bi-quote align-top"></i></small>Design thinking is a non-linear, iterative process that teams use to understand users, challenge assumptions, redefine problems and create innovative solutions to prototype and test."</p>
+                          </blockquote>
+                          <figcaption class="blockquote-footer">
+                            <cite title="Source Title" class="text-body">What is Design Thinking?</cite> <a class="text-primary" href="https://www.interaction-design.org/literature/topics/design-thinking" target="_blank">interaction-design.org</a> <span class="text-body-tertiary"><small> <i class="bi bi-box-arrow-up-right"></i></small></span>
+                          </figcaption>
+                        </figure>
+                        <h8>5 Phases</h8>
                         <ol>
-                          <li>a mechanism that is relatively self-operating</li>
-                          <li>
-                            a machine or control mechanism designed to follow automatically 
-                            a predetermined sequence of operations or respond to encoded instructions
-                          </li>
-                          <li>an individual who acts in a mechanical fashion</li>
+                          <li>Empathize</li>
+                          <li>Define</li>
+                          <li>Ideate</li>
+                          <li>Prototype</li>
+                          <li>Test</li>
                         </ol>
                       </p>
                     </div>
                     <div class="container me-0 pe-0">
-                    <h5 class="card-header border">Past words</h5>
+                    <h5 class="card-header border">Past terms</h5>
                       <div class="d-flex mb-2">
                         <div class="px-3">
                           <div class="vr text-secondary"></div>
                         </div>
                         <div class="flex-fill">
+                          <div class="card rounded-0 border-top-0 ms-1">
+                          <div class="card-body">
+                              <h5 class="card-title">automaton (<i>au·​tom·​a·​ton</i>)</h5>
+                              <p class="card-text">
+                                <div>
+                                  plural: automata (<i>aw·tom·uh·tuh</i>)<br/>
+                                  greek αὐτόματος
+                                </div>
+                                <ol>
+                                  <li>a mechanism that is relatively self-operating</li>
+                                  <li>
+                                    a machine or control mechanism designed to follow automatically 
+                                    a predetermined sequence of operations or respond to encoded instructions
+                                  </li>
+                                  <li>an individual who acts in a mechanical fashion</li>
+                                </ol>
+                              </p>
+                            </div>
+                          </div>
                           <div class="card rounded-0 border-top-0 ms-1">
                             <div class="card-body">
                               <h5 class="card-title">sentiēns (<i>genitive</i> sentientis);</h5>
