@@ -26,6 +26,10 @@ $danger:        #FF5C56;
 .posts-container {
   max-width:760px
 }
-
+.text-nipon {
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  max-height: 300px;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
