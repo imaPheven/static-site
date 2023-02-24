@@ -10,14 +10,20 @@ $danger:        #FF5C56;
   position:sticky; 
   top: 4rem;
   overflow: hidden;
+  display: none;
 }
-@media (min-width: 768px) {
-  .masthead {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 4rem;
-  }
-}
+// @media (min-width: 768px) {
+//   .masthead {
+//       position: -webkit-sticky;
+//       position: sticky;
+//       top: 4rem;
+//   }
+// }
+// @media (max-width: 768px) {
+//   .masthead {
+//       display: none;
+//   }
+// }
 .vr { height:100%}
 #content {
   grid-template-columns: 4fr 8fr;
@@ -46,3 +52,9 @@ $danger:        #FF5C56;
   -ms-filter: "FlipH";
 }
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+@include media-breakpoint-up(lg) {
+  .masthead {
+      display: block;
+  }
+}
