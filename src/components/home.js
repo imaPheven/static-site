@@ -1,7 +1,7 @@
 export default function Home() {
   // This following section will display the table with the records of individuals.
   return (
-    <div class="px-4 px-xxl-2 container-xxl">
+    <div class="px-4 px-xxl-2 container-xxl fs-4">
       <div class="d-lg-grid" id="content">
         <div class="sidecar">
           <div class="masthead py-5">
@@ -66,27 +66,30 @@ export default function Home() {
               <div class="col-md-12">
                 <div class="h-100 p-4 text-bg-dark rounded-3">
                   <div class="card mb-4">
-                    <h5 class="card-header"><i class="bi bi-book text-primary"></i> Term of the day</h5>
-                    <div class="card-body">
-                      <h5 class="card-title">Design Thinking</h5>
-                      <p class="card-text">
-                        <figure>
-                          <blockquote class="blockquote">
-                            <p class="fs-6"><small><i class="bi bi-quote align-top"></i></small>Design thinking is a non-linear, iterative process that teams use to understand users, challenge assumptions, redefine problems and create innovative solutions to prototype and test."</p>
-                          </blockquote>
-                          <figcaption class="blockquote-footer">
-                            <cite title="Source Title" class="text-body">What is Design Thinking?</cite> <a class="text-primary" href="https://www.interaction-design.org/literature/topics/design-thinking" target="_blank">interaction-design.org</a> <span class="text-body-tertiary"><small> <i class="bi bi-box-arrow-up-right"></i></small></span>
-                          </figcaption>
-                        </figure>
-                        <h8>5 Phases</h8>
-                        <ol>
-                          <li>Empathize</li>
-                          <li>Define</li>
-                          <li>Ideate</li>
-                          <li>Prototype</li>
-                          <li>Test</li>
-                        </ol>
-                      </p>
+                    <h3 class="card-header"><i class="bi bi-book text-primary"></i> Term of the day</h3>
+                    <div class="card-body fs-4">
+                      <h4 class="card-title fs-1">Eternal <small class="text-body">(<i class="text-muted">e·ter·nal</i>)</small></h4>
+                      <div class="card-text mx-3">
+                        <p>
+                          {/* <small><i>/əˈtərn(ə)l/</i></small> */}
+                          <div><i class="text-muted">adjective</i></div>
+                          <ol>
+                            <li>without beginning or end</li>
+                            <li>existence outside the constraints of time</li>
+                          </ol>
+                        </p>
+                        <h6 class="text-body-emphasis"><i class="bi bi-info-circle-fill text-warning fs-3"></i> Eternal vs everlasting</h6>
+                        <p class="fs-6 text-body">
+                          While some definitions include <strong>everlasting</strong> and&nbsp;
+                          <strong>lasting forever</strong> in the definition, 
+                          they are a bit misleading.
+                        </p>
+                        <p class="fs-6 text-body">
+                          Something that is eternal must be <u><strong>both</strong> without beginning 
+                          and without end</u>. Something could be everlasting, indicating 
+                          without end but still have a beginning and therefore not eternal.
+                        </p>
+                      </div>
                     </div>
                     <div class="container me-0 pe-0">
                     <h5 class="card-header border">Past terms</h5>
@@ -95,6 +98,29 @@ export default function Home() {
                           <div class="vr text-secondary"></div>
                         </div>
                         <div class="flex-fill">
+                          <div class="card rounded-0 border-top-0 ms-1">
+                          <div class="card-body">
+                              <h5 class="card-title">Design Thinking</h5>
+                              <p class="card-text">
+                              <figure>
+                                <blockquote class="blockquote">
+                                  <p class="fs-6"><small><i class="bi bi-quote align-top"></i></small>Design thinking is a non-linear, iterative process that teams use to understand users, challenge assumptions, redefine problems and create innovative solutions to prototype and test."</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                  <cite title="Source Title" class="text-body">What is Design Thinking?</cite> <a class="text-primary" href="https://www.interaction-design.org/literature/topics/design-thinking" target="_blank">interaction-design.org</a> <span class="text-body-tertiary"><small> <i class="bi bi-box-arrow-up-right"></i></small></span>
+                                </figcaption>
+                              </figure>
+                              <h8>5 Phases</h8>
+                              <ol>
+                                <li>Empathize</li>
+                                <li>Define</li>
+                                <li>Ideate</li>
+                                <li>Prototype</li>
+                                <li>Test</li>
+                              </ol>
+                              </p>
+                            </div>
+                          </div>
                           <div class="card rounded-0 border-top-0 ms-1">
                           <div class="card-body">
                               <h5 class="card-title">automaton (<i>au·​tom·​a·​ton</i>)</h5>
